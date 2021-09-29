@@ -1,0 +1,1 @@
+Jogo Super Trunfo com o tema World of Warcraft
