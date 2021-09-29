@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - Aula 07</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super Trunfo</h1>
+        <br>
+        <img id="logoWow"
+            src="https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt03dc217d0e54036a/5dbb29281b83a568128c8c9d/Shadowlands_Logo.png?auto=webp"
+            alt="">
+        <div id="editarPlacar">
+        <p>PLACAR</p>
+        <p id="placarJogador"></p>
+        <p id="placarMaquina"></p>
+        </div>
+
+        <div id="botaoZerar">
+            <button onclick="sortearCarta()" id="btnSortear">Sortear Herói</button>
+            <button onclick="zerarPlacar()" id="btnZerarPlacar">Zerar Placar</button>
+        </div>
+
+        <form id="form">
+            <h2 id="h2"></h2>
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador" class="carta"></div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                style="display: none;">Jogar</button>
+            <div id="resultado"></div>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
