@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imersão Dev - Aula 07</title>
+    <title>Super Trunfo WoW</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
+    <audio src="Anduin Theme.mp3"></audio>
     <div class="container">
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
-            alt="">
         <h1 class="page-title">Super Trunfo</h1>
         <br>
         <img id="logoWow"
@@ -22,6 +21,11 @@
         <p>PLACAR</p>
         <p id="placarJogador"></p>
         <p id="placarMaquina"></p>
+        </div>
+
+        <div id="alinharBotao">
+        <button onclick="tocarMusica()" id="btnMusica">▶</button>
+        <button onclick="pausarMusica()" id="btnMusica">||</button>
         </div>
 
         <div id="botaoZerar">

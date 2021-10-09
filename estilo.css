@@ -36,7 +36,6 @@ button {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     width: 170px;
-    margin: auto;
     border: 2px solid rgb(0, 0, 0);
 }
 
@@ -45,6 +44,18 @@ button:hover {
     color: #252525;
     transition: all 0.5s ease-in-out;
   }
+
+  #btnMusica {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#alinharBotao {
+    display: flex;
+    justify-content: center;
+}
 
   #botaoZerar {
     margin: 5px;
@@ -169,7 +180,9 @@ form {
     width: 170px;
     height: 140px;
     margin: auto;
+    margin-bottom: 10px;
     border-radius: 20px;
     border: solid;
     border-color: black;
 }
+

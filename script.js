@@ -232,3 +232,14 @@ function zerarPlacar() {
     placar[1] = 0
     exibePlacar()
 }
+
+function tocarMusica() {
+    var audio = document.querySelector('audio')
+    audio.play()
+}
+
+function pausarMusica() {
+    var audio = document.querySelector('audio')
+    audio.pause()
+}
+
